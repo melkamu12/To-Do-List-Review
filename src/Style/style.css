@@ -115,6 +115,7 @@ footer {
 .todoList {
   padding: 10px;
 }
+
 .todoList li {
   display: grid;
   grid-template-columns: auto 2fr auto auto;
@@ -183,7 +184,7 @@ input[type="checkbox"]:checked::before {
 .trash {
   display: none;
   cursor: pointer;
-  color: blue; 
+  color: blue;
 }
 
 .task:hover .more {
